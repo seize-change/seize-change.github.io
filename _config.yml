@@ -5,7 +5,7 @@ url: https://nannau.github.io/seize_change
 description: "Reframe the face of adventure"
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#34598D'
+  primary-dark: '#0099ff'
   links: '#219ab3'
 
 # Footer settings
