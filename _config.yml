@@ -6,6 +6,7 @@ description: "Reframing the face of adventure"
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#1a4182'
+  primary-dark-nav: '#0e2244'
   links: '#219ab3'
 
 # Footer settings
