@@ -1,2 +1,5 @@
 {% include css/bootstrap.min.css %}
 {% include css/grayscale.css %}
+.navbar-custom-color {
+    background-color: #0e2244;
+}
