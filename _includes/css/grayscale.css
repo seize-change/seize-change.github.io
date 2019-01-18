@@ -11,7 +11,7 @@
 }
 
 .B {
-    background-color: #1D291D295151;
+    background-color: #588BAE;
     padding: 10px;
 }
 
@@ -235,6 +235,21 @@ a:focus {
     -o-background-size: cover;
 }
 
+.introMChange {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url('img/making_change.jpg') no-repeat bottom center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
@@ -245,6 +260,12 @@ a:focus {
     vertical-align: middle;
 }
 
+.introMChange .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
 .intro .intro-body .brand-heading {
     font-size: 40px;
 }
@@ -253,6 +274,11 @@ a:focus {
     font-size: 40px;
 }
 
+.introMChange .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+
 .intro .intro-body .intro-text {
     font-size: 18px;
 }
@@ -260,6 +286,11 @@ a:focus {
 .introAbout .intro-body .intro-text {
     font-size: 18px;
 }
+
+.introMChange .intro-body .intro-text {
+    font-size: 18px;
+}
+
 @media(min-width:767px) {
     .intro {
         height: 100%;
@@ -271,6 +302,10 @@ a:focus {
         padding: 0;
     }
 
+    .introMChange {
+        height: 70%;
+        padding: 0;
+    }
 
     .intro .intro-body .brand-heading {
         font-size: 100px;
@@ -288,6 +323,15 @@ a:focus {
     .introAbout .intro-body .intro-text {
         font-size: 25px;
     }
+
+    .introMChange .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .introMChange .intro-body .intro-text {
+        font-size: 25px;
+    }
+
 }
 
 .btn-circle {
