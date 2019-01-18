@@ -5,6 +5,30 @@
  */
 
 
+.A {
+    background-color: #0E4D92;
+    padding: 10px;
+}
+
+.B {
+    background-color: #4682B4;
+    padding: 10px;
+}
+
+.C {
+    background-color: #003152;
+    padding: 10px;
+}
+.D {
+    background-color: #008ECC;
+    padding: 10px;
+}
+.E {
+    background-color: #008081;
+    padding: 10px ;         
+}
+
+
 /* Dropdown Button */
 .dropbtn {
   /*background-color: site.color.primary-dark;
@@ -162,7 +186,7 @@ a:focus {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 10px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
@@ -188,7 +212,22 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url('img/intro-bg.jpg') no-repeat bottom center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.introAbout {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url('img/about.JPG') no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -201,7 +240,16 @@ a:focus {
     vertical-align: middle;
 }
 
+.introAbout .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.introAbout .intro-body .brand-heading {
     font-size: 40px;
 }
 
@@ -209,17 +257,35 @@ a:focus {
     font-size: 18px;
 }
 
+.introAbout .intro-body .intro-text {
+    font-size: 18px;
+}
 @media(min-width:767px) {
     .intro {
         height: 100%;
         padding: 0;
     }
 
+    .introAbout {
+        height: 70%;
+        padding: 0;
+    }
+
+
     .intro .intro-body .brand-heading {
         font-size: 100px;
     }
 
     .intro .intro-body .intro-text {
+        font-size: 25px;
+    }
+
+
+    .introAbout .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .introAbout .intro-body .intro-text {
         font-size: 25px;
     }
 }
