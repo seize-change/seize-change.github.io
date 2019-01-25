@@ -3,3 +3,27 @@
 .navbar-custom-color {
     background-color: #0e2244;
 }
+
+.avatar {
+    vertical-align: left;
+    width: 45%;
+    border-radius: 1%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    image-orientation: from-image;
+}
+
+ul.a {
+    list-style-type: square;
+    text-align: left;
+    font-size: 20px;
+}
+table, th, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
