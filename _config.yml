@@ -6,9 +6,9 @@ url: https://seize_change/seize-change.github.io
 description: "Reframing the face of adventure"
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#0094DA'
-  primary-dark-nav: '#0094DA'
-  links: '#ffffff'
+  primary-dark: '#ffffff'
+  primary-dark-nav: '#ffffff'
+  links: '#164ca3'
 
 # Footer settings
 footer: Seize Change
