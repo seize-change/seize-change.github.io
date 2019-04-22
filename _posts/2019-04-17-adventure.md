@@ -14,8 +14,7 @@ Marine debris is classified as man-made items that end up in the marine environm
 [Read More About Marine Debris Here](https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-waste-pollution-trash-crisis/)
 
 ## Interconnected Oceans
-
-<img src= '../assets/images/interconnected.jpg' width='200'>
+<img src="/assets/images/interconnected.jpg" alt="drawing" width="500"/>
 
 Marine debris is an international problem that one country cannot fix alone. In the years following the 2011 Tsunami in Japan, residents along the coastlines of BC and Alaska saw just how connected our oceans are, as tonnes of trash washed up on their shores as a result of oceanic currents. In order to solve an issue of this magnitude, we need to work together, and tackle the problem from a variety of different angles; from behavioural change on the individual level, to changing international and national legislation.
 
@@ -25,7 +24,7 @@ Two decades ago, the average person had not been exposed to the concept of marin
 
 People are becoming more aware of marine debris, and popular culture is shifting to be more aware of the waste we produce. Sailing La Vagabonde on YouTube does an entire episode dedicated to this here.
 
-[![LaVagabonde](https://www.youtube.com/watch?v=bXL0Of7VfUo)]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bXL0Of7VfUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Citizen Science
 

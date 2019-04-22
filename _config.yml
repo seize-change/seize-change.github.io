@@ -3,15 +3,15 @@ title: Seize Change
 subtitle: 2019
 email: info@seize-change.org
 description: Reframing the face of adventue
-baseurl: "/massively-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author: Nic Annau
 #street_address: 1234 Somewhere Road
-city: Vancouver Island
+city: Victoria
 state: British Columbia
 #zip_code: 55555
 country: Canada
-#phone: 
+phone: 1 778 980 7423
 
 # social settings
 500px_url:
