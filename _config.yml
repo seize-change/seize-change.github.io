@@ -1,41 +1,33 @@
-# Site settings
+# site settings
 title: Seize Change
+subtitle: 2019
 email: info@seize-change.org
-url: https://seize_change/seize-change.github.io
+description: Reframing the face of adventue
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+author: Nic Annau
+#street_address: 1234 Somewhere Road
+city: Victoria
+state: British Columbia
+#zip_code: 55555
+country: Canada
+phone: 1 778 980 7423
 
-description: "Reframing the face of adventure"
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary-dark: '#ffffff'
-  primary-dark-nav: '#ffffff'
-  links: '#164ca3'
+# social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/seize-change
+#gitlab_url: https://gitlab.com/u/andrewbanchich
+#googleplus_url:
+instagram_url: https://www.instagram.com/seizechange/
+#linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+#pinterest_url:
+#slack_url:
+twitter_url: https://twitter.com/seizechange
+facebook_url: https://www.facebook.com/seizechange/
 
-# Footer settings
-footer: Seize Change
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/seizechange
-  - title: facebook
-    url: https://facebook.com/seizechange
-  - title: instagram
-    url: https://www.instagram.com/seizechange
-  - title: github
-    url: https://github.com/seize-change
- # - title: stack-overflow
- #   url: http://stackoverflow.com/questions/tagged/jekyll
- # - title: bitbucket
- #   url: http://bitbucket.org/jekyll
-repository: seize-change/seize-change.github.io
-
-gems:
-- jekyll-github-metadata
-- jekyll-mentions
-- jekyll-redirect-from
-- jekyll-sitemap
-- jemoji
-
-# Build settings
+# build settings
 markdown: kramdown
-permalink: pretty
+
+sass:
+  style: compressed

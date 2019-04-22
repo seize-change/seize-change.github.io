@@ -1,2 +1,1 @@
-# Seize-Change 
-### Our website's repository. 
+# Seize Change's Website
