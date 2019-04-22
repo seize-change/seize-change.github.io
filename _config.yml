@@ -1,10 +1,10 @@
 # site settings
 title: Seize Change
 subtitle: 2019
-email: info@seize-change.org
+email: seize-change01@gmail.com
 description: Reframing the face of adventue
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://www.seize-change.org/" # the base hostname & protocol for your site
 author: Nic Annau
 #street_address: 1234 Somewhere Road
 city: Victoria
@@ -15,7 +15,6 @@ phone: 1 778 980 7423
 
 # social settings
 500px_url:
-facebook_url:
 github_url: https://github.com/seize-change
 #gitlab_url: https://gitlab.com/u/andrewbanchich
 #googleplus_url:
